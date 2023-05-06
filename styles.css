@@ -1,0 +1,18 @@
+
+body {
+    margin: auto;
+    text-align: center;
+}
+
+#btn-analysis {
+    background-color: crimson;
+    color: white;
+    display: block;
+    margin: auto;
+    font-size: larger;
+    font-weight: bold;
+    padding: 0.4rem;
+    border: 1px solid crimson;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
