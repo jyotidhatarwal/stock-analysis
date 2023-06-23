@@ -1,18 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+:root {
+    --primary-color: beige;
+    --secondary-color: crimson;
+    
+}
 
 body {
     margin: auto;
     text-align: center;
+    background-color: var(--primary-color);
+}
+
+input{
+    border: 2px solid chocolate ;
+    padding: 1rem;
+}
+
+#heading {
+    font-family: 'Tilt Prism', cursive;
 }
 
 #btn-analysis {
-    background-color: crimson;
+    background-color: var(--secondary-color);
     color: white;
     display: block;
     margin: auto;
     font-size: larger;
     font-weight: bold;
     padding: 0.4rem;
-    border: 1px solid crimson;
+    border: 1px solid var(--secondary-color);
     border-radius: 1rem;
     margin-top: 1rem;
 }
